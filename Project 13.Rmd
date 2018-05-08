@@ -16,11 +16,11 @@ fit<- lm(regression$ROLL ~ regression$UNEM + regression$HGRAD + regression$INC, 
 fit
 ```
 
-Predict the enrollment if the unemployment rate = 4.1%, HGrad = 17231, Inc = 3000
+Predict the enrollment if the unemployment rate = 3.1%, HGrad = 16231, Inc = 3500
 ```{r}
-unem = 4.1
-hgrad = 17231
-inc = 3000
+unem = 3.1
+hgrad = 16231
+inc = 3500
 Enrollment = -9153.2545 + unem*450.1245 + hgrad*0.4065 + inc*4.2749
 Enrollment
 ```
